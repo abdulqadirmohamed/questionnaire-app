@@ -28,9 +28,9 @@ const DynamicForm = () => {
   };
   
   const  handleChangeTitle = (index, value) => {
-    const updatedTitle = [...title];
-    updatedTitle[index].value = value;
-    setTitle(updatedTitle);
+    // const updatedTitle = [...title];
+    // updatedTitle[index] = value;
+    setTitle(title);
   };
 
   return (
@@ -40,7 +40,7 @@ const DynamicForm = () => {
           <div>
             <input
               type="text"
-              value={title}
+              value={title +" "+ index}
               onClick={(e) => handleChangeTitle(index, e.target.value)}
               className="bg-transparent outline-none"
             />
@@ -61,6 +61,7 @@ const DynamicForm = () => {
             <option value="text">Text</option>
             <option value="number">Number</option>
             <option value="email">Email</option>
+            <option value="radio">Radio</option>
             {/* Add more options for different field types */}
           </select>
           <button
@@ -79,12 +80,15 @@ const DynamicForm = () => {
       >
         Add Field
       </button>
+      {fields.length > 0 ?(
       <button
         type="submit"
         className="px-4 py-2 bg-blue-500 text-white my-2 mx-4 rounded-sm"
       >
         Submit
       </button>
+
+      ):""}
     </form>
   );
 };

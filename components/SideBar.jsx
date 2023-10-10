@@ -7,7 +7,7 @@ const SideBar = () => {
   const sideLinks = [
     { id: 1, url: "/", title: "Dashboard", icon: <BiTachometer/> },
     { id: 3, url: "/forms", title: "Forms", icon: <AiOutlineForm/> },
-    { id: 2, url: "/projects", title: "Projects", icon: <AiOutlineFundProjectionScreen/> },
+    { id: 2, url: "/test", title: "Projects", icon: <AiOutlineFundProjectionScreen/> },
     { id: 4, url: "/features", title: "Setting", icon: <AiOutlineSetting/> },
     { id: 4, url: "/research", title: "Research", icon: <AiOutlineSetting/> },
   ];
