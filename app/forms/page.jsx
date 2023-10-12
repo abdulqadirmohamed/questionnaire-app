@@ -1,16 +1,20 @@
+'use client'
 import Link from "next/link";
 import React from "react";
 import { IoIosAdd } from 'react-icons/io'
 import { AiOutlineContacts, AiOutlineCalendar } from 'react-icons/ai'
 import { LuContact } from 'react-icons/lu'
+import uuid from 'react-uuid';
+
 
 const page = () => {
+  const id = uuid()
   return (
   <div className="w-[95%] mx-auto">
     <h1 className="mt-5">Start a new form</h1>
     <div className="grid grid-cols-4 gap-10 my-5">
       <div className="text-center">
-        <Link href="/forms/newform" className="flex flex-col items-center justify-center bg-white text-[#545FDD] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md">
+        <Link href={`/forms/${id}`} className="flex flex-col items-center justify-center bg-white text-[#545FDD] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md">
           <IoIosAdd size={40} />
         </Link>
         <h5 className="my-2">Blank</h5>
