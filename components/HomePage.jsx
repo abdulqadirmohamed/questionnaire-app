@@ -16,7 +16,7 @@ const HomePage = () => {
             >
               <BsClipboardData size={30} />
             </Link>
-            <h5 className="my-2">Responsive</h5>
+            <h5 className="my-2">Total Responses</h5>
           </div>
           <div className="text-center">
             <Link
@@ -25,7 +25,7 @@ const HomePage = () => {
             >
               <LuContact size={25} />
             </Link>
-            <h5 className="my-2">Contact Information</h5>
+            <h5 className="my-2">Completed</h5>
           </div>
           <div className="text-center">
             <Link
@@ -34,7 +34,7 @@ const HomePage = () => {
             >
               <AiOutlineCalendar size={25} />
             </Link>
-            <h5 className="my-2">Find time</h5>
+            <h5 className="my-2">Completion</h5>
           </div>
           <div className="text-center">
             <Link
