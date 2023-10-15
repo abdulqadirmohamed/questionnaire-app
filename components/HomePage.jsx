@@ -12,7 +12,7 @@ const HomePage = () => {
           <div className="text-center">
             <Link
               href="/"
-              className="flex flex-col items-center justify-center text-white bg-[#FFE2E6] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
+              className="flex flex-col items-center justify-center text-red-500 bg-[#FFE2E6] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
             >
               <BsClipboardData size={30} />
             </Link>
@@ -21,7 +21,7 @@ const HomePage = () => {
           <div className="text-center">
             <Link
               href="#"
-              className="flex flex-col items-center justify-center text-white bg-[#FFF4DE] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
+              className="flex flex-col items-center justify-center text-yellow-500 bg-[#FFF4DE] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
             >
               <LuContact size={25} />
             </Link>
@@ -30,7 +30,7 @@ const HomePage = () => {
           <div className="text-center">
             <Link
               href="#"
-              className="flex flex-col items-center justify-center text-white bg-[#DCFCE7] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
+              className="flex flex-col items-center justify-center text-green-500 bg-[#DCFCE7] border-[1px] hover:border-[#545FDD] h-[100px] p-5 rounded-md"
             >
               <AiOutlineCalendar size={25} />
             </Link>

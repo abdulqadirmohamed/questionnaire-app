@@ -4,12 +4,12 @@ import React, { useState } from "react";
 
 const cities = [
   {
-    name: "New York",
+    name: "Garowe",
     sales: 9800,
   },
   // ...
   {
-    name: "Zurich",
+    name: "Galkacyo",
     sales: 1398,
   },
 ];
